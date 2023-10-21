@@ -8,7 +8,7 @@ const Signup = () => {
             <h1>Left Part</h1>
         </div>
         <div className={styles.right}>
-            <h2>Right Part</h2>
+            <h1>Right Part</h1>
         </div>
     </div>
     
