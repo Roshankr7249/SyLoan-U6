@@ -26,7 +26,11 @@
     margin: 15px ;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s;
 }
+.card1:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
 .card1 .info{
     width: 70%;
     padding-left: 10px;
@@ -44,6 +48,9 @@
 }
 .card1 .info p:nth-child(3){
     padding-top: 20px;
+    /* border: 1px solid red; */
+    color: blue;
+    cursor: pointer;
 }
 .card1 div:nth-child(2){
     padding-top: 15px;
@@ -51,4 +58,11 @@
 }
 .card1 div:nth-child(2) img{
     width: 100%;
+}
+div h2{
+    /* border: 1px solid red; */
+    /* width: 77%;
+    margin: auto;
+    color: blue;
+    margin-top: 15px; */
 }

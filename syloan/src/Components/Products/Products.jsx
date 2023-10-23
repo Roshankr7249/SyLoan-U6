@@ -1,10 +1,18 @@
 import React from 'react'
 import Styles from "../Products/Products.module.css"
 import cerditCard from "./productsImages/creditCard.png"
+import PersonalLoan from "./productsImages/PersonalLoan.png"
+import MicroLoans from "./productsImages/MicroLoans.png"
+import TransferPersonalLoan from "./productsImages/TranferPersonalLoan.png"
+import HomeLoan from "./productsImages/HomeLoan.png"
+import LoanAgainstProperty from "./productsImages/LoanAgainstProperty.png"
+import BusinessLoan from "./productsImages/Business Loan.png"
+import stepUpCreditCard from "./productsImages/stepUpCreditCard.png"
+import transferHomeLoan from "./productsImages/transferHomeLoans.png"
 const Products = () => {
   return (
     <div>
-        <h2>Products</h2>
+        {/* <h2>Products</h2> */}
         <div id={Styles.container}>
             <div className={Styles.card}>
                 <div className={Styles.card1}>
@@ -25,7 +33,7 @@ const Products = () => {
                         <p>Check Eligibilty →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={PersonalLoan} alt="" />
                     </div>
                 </div>
 
@@ -37,7 +45,7 @@ const Products = () => {
                         <p>Get Instant Loans →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={MicroLoans} alt="" />
                     </div>
                 </div>
 
@@ -49,7 +57,7 @@ const Products = () => {
                         <p>Check Eligibility →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={BusinessLoan} alt="" />
                     </div>
                 </div>
 
@@ -61,7 +69,7 @@ const Products = () => {
                         <p>Reduce Your EMI →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={TransferPersonalLoan} alt="" />
                     </div>
                 </div>
 
@@ -73,7 +81,7 @@ const Products = () => {
                         <p>Check Eligibility →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={HomeLoan} alt="" />
                     </div>
                 </div>
 
@@ -85,7 +93,7 @@ const Products = () => {
                         <p>Get Best Offers →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={LoanAgainstProperty} alt="" />
                     </div>
                 </div>
 
@@ -97,7 +105,7 @@ const Products = () => {
                         <p>Reduce Your EMI →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={transferHomeLoan} alt="" />
                     </div>
                 </div>
 
@@ -109,7 +117,7 @@ const Products = () => {
                         <p>Know More →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        <img src={stepUpCreditCard} alt="" />
                     </div>
                 </div>
             </div>
