@@ -1,3 +1,6 @@
+/* body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
 #container{
     border: 1px solid red;
     max-width: 1280px;
@@ -7,7 +10,8 @@
 }
 
 .card{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+   
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -15,15 +19,16 @@
     /* gap: 20px; */
 }
 .card1{
-    border: 1px solid red;
-    max-width: 270px;
+    /* border: 1px solid red; */
+    max-width: 250px;
     height: 150px;
     display: flex;
     margin: 15px ;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card1 .info{
-    width: 80%;
+    width: 70%;
     padding-left: 10px;
 }
 .card1 .info h4{
@@ -34,7 +39,7 @@
     margin: 0;
     padding-top: 5px;
     font-size: 0.9rem;
-    color: rgb(142, 142, 142);
+    color: rgb(108, 107, 107);
 
 }
 .card1 .info p:nth-child(3){
