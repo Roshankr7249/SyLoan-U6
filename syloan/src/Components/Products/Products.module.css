@@ -29,7 +29,7 @@
     transition: transform 0.3s;
 }
 .card1:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
+    transform: scale(1.1); 
   }
 .card1 .info{
     width: 70%;
